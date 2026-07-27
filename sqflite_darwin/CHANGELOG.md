@@ -1,11 +1,3 @@
-## 2.4.3+1
-
-* Minor SPM support update
-
-## 2.4.3
-
-* Requires dart 3.12
-
 ## 2.4.2
 
 * Requires dart 3.7

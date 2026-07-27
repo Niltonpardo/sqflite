@@ -6,22 +6,19 @@ import PackageDescription
 let package = Package(
     name: "sqflite_darwin",
     platforms: [
-        .iOS("12.0"),
+        .iOS("13.0"),
         .macOS("10.14")
     ],
     products: [
+        // TODO: Update your library and target names.
         // If the plugin name contains "_", replace with "-" for the library name
         .library(name: "sqflite-darwin", targets: ["sqflite_darwin"])
     ],
-    dependencies: [
-        .package(name: "FlutterFramework", path: "../FlutterFramework")
-    ],
+    dependencies: [],
     targets: [
         .target(
             name: "sqflite_darwin",
-            dependencies: [
-                .product(name: "FlutterFramework", package: "FlutterFramework")
-            ],
+            dependencies: [],
             resources: [
                 .process("Resources"),
 
